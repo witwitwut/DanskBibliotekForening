@@ -14,7 +14,7 @@ namespace BIZ
     public class ClassBiz
     {
 
-        classDBF CDBF = new ClassDBF();
+        ClassDbfDB CDBF = new ClassDbfDB();
         private ObservableCollection<ClassBog> _boeger = new ObservableCollection<ClassBog>();
         private ObservableCollection<ClassBog> _laanteBoeger= new ObservableCollection<ClassBog>();
         private ClassBog _Bog;
