@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class ClassBog
+    public class ClassBog : Udlaan
     {
-        public ClassBog()
-        {
-
-        }
-        public ClassBog(int inId, string inIsbnNr, string inTitel, string inForfatter, string inForlag, string inGenre, string inType, decimal inPris)
+        public ClassBog(int inId, string inIsbnNr, string inTitel, string inForfatter, string inForlag, string inGenre, string inType, decimal inPris, DateTime afleveringsDato) : base(afleveringsDato)
         {
             id = inId;
             isbnNr = inIsbnNr;

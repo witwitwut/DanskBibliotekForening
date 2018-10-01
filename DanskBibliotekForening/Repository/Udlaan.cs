@@ -10,6 +10,11 @@ namespace Repository
     {
         private DateTime afleveringsDato;
 
+        public Udlaan(DateTime afleveringsDato)
+        {
+            AfleveringsDato = afleveringsDato;
+        }
+
         public DateTime AfleveringsDato
         {
             get { return afleveringsDato; }
