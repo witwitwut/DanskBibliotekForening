@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-   public class ClassBog
+    public class ClassBog
     {
         public ClassBog()
         {

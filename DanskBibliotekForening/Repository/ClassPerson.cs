@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    class ClassPerson
+    public class ClassPerson
     {
         private int _id;
         private string _navn;
